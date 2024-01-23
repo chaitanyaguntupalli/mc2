@@ -1,6 +1,13 @@
 if
 {
+<<<<<<< HEAD
     nothing happens;
 }
 else
     do something;
+=======
+	something happens;
+}
+else
+	nothing happens;
+>>>>>>> dev
