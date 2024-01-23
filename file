@@ -1,0 +1,6 @@
+if
+{
+	something happens;
+}
+else
+	nothing happens;
