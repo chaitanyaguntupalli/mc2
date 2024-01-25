@@ -4,18 +4,27 @@ Pipeline {
         stages {
             stage('build') {
                 // compiling the application and generating Artifacts
+                echo 'buid'
             }
             stage('test') {
                 // testing the applications like vaildation, test, and UAT
+                echo 'test'
+
             }
             stage('scan') {
                 // SonarQube Analysis to check for vulnerabilities, bugs and so on..
+                echo 'scan'
+
             }
             stage('quality'){
                 // check for quality gateway status
+                echo 'quality'
+
             }
             stage('artifactory'){
                 // push to artifactory
+                echo 'artifact'
+
             }
 
         }
