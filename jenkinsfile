@@ -1,0 +1,23 @@
+// CI stages at Jenkins
+Pipeline {
+    agent any 
+        stages {
+            stage('build') {
+                // compiling the application and generating Artifacts
+            }
+            stage('test') {
+                // testing the applications like vaildation, test, and UAT
+            }
+            stage('scan') {
+                // SonarQube Analysis to check for vulnerabilities, bugs and so on..
+            }
+            stage('quality'){
+                // check for quality gateway status
+            }
+            stage('artifactory'){
+                // push to artifactory
+            }
+
+        }
+    
+}
